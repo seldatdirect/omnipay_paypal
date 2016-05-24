@@ -1,5 +1,5 @@
 {
-    "name": "nghiemdp/omnipay_paypal",
+    "name": "seldatdirect/omnipay_paypal",
     "type": "library",
     "description": "PayPal gateway for Omnipay payment processing library",
     "keywords": [
@@ -11,7 +11,7 @@
         "paypal",
         "purchase"
     ],
-    "homepage": "https://github.com/nghiemdp/OmnipayPaypal",
+    "homepage": "https://github.com/seldatdirect/omnipay_paypal",
     "license": "MIT",
     "authors": [
         {
@@ -20,7 +20,7 @@
         },
         {
             "name": "Omnipay Contributors",
-            "homepage": "https://github.com/nghiemdp/OmnipayPaypal/contributors"
+            "homepage": "https://github.com/seldatdirect/omnipay_paypal/contributors"
         }
     ],
     "autoload": {
@@ -31,10 +31,5 @@
     },
     "require-dev": {
         "omnipay/tests": "*"
-    },
-    "extra": {
-        "installer-paths": {
-            "omnipay/{$name}/": ["vendor/omnipay/paypal"]
-        }
     }
 }
