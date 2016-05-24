@@ -17,7 +17,7 @@ to your `composer.json` file:
 ```json
 {
     "require": {
-        "omnipay/paypal": "~2.0"
+        "nghiemdp/omnipay_paypal": "*"
     }
 }
 ```
