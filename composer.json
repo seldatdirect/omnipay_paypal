@@ -34,7 +34,7 @@
     },
     "extra": {
         "installer-paths": {
-            "omnipay/{$name}/": ["vendor:paypal"]
+            "omnipay/{$name}/": ["vendor/omnipay/paypal"]
         }
     }
 }
