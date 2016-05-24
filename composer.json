@@ -31,5 +31,10 @@
     },
     "require-dev": {
         "omnipay/tests": "*"
+    },
+    "extra": {
+        "installer-paths": {
+            "omnipay/{$name}/": ["vendor:paypal"]
+        }
     }
 }
